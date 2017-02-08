@@ -37,7 +37,7 @@ inspired by [Cockroach DB](http://cockroachlabs.com).
   [RAFT](https://raft.github.io/raft.pdf) and [RocksDB](http://rocksdb.org/).
 
 - Stored data are partitioned and stored on top of a collection of
-  distributed machines.
+  distributed machines. Some encoding schema like Reed-Solomon is used.
 
 There is no transactional guarantee given the nature of the data we store.
 
